@@ -24,3 +24,6 @@ http://volcore.limbic.com
   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Enjoy!
+
+NOTES:
+- linear interpolation does not work on device, because the A5 only supports half float interpolation. The textures, however, are single floats. It works well in the sim, though.
