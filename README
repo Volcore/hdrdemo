@@ -25,5 +25,13 @@ http://volcore.limbic.com
 
 Enjoy!
 
+If you like this, consider getting one of our games:
+
+- TowerMadness http://bit.ly/towermadness
+- Nuts! http://bit.ly/get-nuts
+- Zombie Gunship bit.ly/zombie-gunship
+
+Thanks!
+
 NOTES:
 - linear interpolation does not work on device, because the A5 only supports half float interpolation. The textures, however, are single floats. It works well in the sim, though.
