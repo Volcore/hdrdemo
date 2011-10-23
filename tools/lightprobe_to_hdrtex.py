@@ -82,11 +82,11 @@ def main():
       for c in range(3):
         image[image_idx].writeF32(ibs.readF32())
   print("Writing images...")
-#  save_pfm(image[ 4], "rnl_ny.pfm", image_width, image_height, flip_x=False, flip_y=False)
-#  save_pfm(image[ 1], "rnl_pz.pfm", image_width, image_height, flip_x=False, flip_y=False)
-#  save_pfm(image[ 8], "rnl_px.pfm", image_width, image_height, flip_x=True, flip_y=True)
-#  save_pfm(image[ 6], "rnl_nx.pfm", image_width, image_height, flip_x=True, flip_y=True)
-#  save_pfm(image[ 7], "rnl_nz.pfm", image_width, image_height, flip_x=True, flip_y=True)
+  save_pfm(image[ 4], "rnl_ny.pfm", image_width, image_height, flip_x=False, flip_y=False)
+  save_pfm(image[ 1], "rnl_pz.pfm", image_width, image_height, flip_x=False, flip_y=False)
+  save_pfm(image[ 8], "rnl_px.pfm", image_width, image_height, flip_x=True, flip_y=True)
+  save_pfm(image[ 6], "rnl_nx.pfm", image_width, image_height, flip_x=True, flip_y=True)
+  save_pfm(image[ 7], "rnl_nz.pfm", image_width, image_height, flip_x=True, flip_y=True)
   save_pfm(image[10], "rnl_py.pfm", image_width, image_height, flip_x=False, flip_y=False)
   
 
