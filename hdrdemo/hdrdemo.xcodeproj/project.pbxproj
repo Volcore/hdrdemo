@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F1272AB141B4B4B006341D1 /* histogramviz.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9F1272A9141B4B4B006341D1 /* histogramviz.cc */; };
+		9F1272B1141B52B4006341D1 /* histogram.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 9F1272AE141B4EB3006341D1 /* histogram.vsh */; };
+		9F1272B2141B52B8006341D1 /* histogram.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 9F1272AD141B4EB3006341D1 /* histogram.fsh */; };
+		9F7513DE141B7EB4007D31E7 /* hdrcubemap.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 9F7513DA141B7EA8007D31E7 /* hdrcubemap.fsh */; };
+		9F7513DF141B7EB8007D31E7 /* hdrcubemap.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 9F7513DB141B7EA8007D31E7 /* hdrcubemap.vsh */; };
+		9F7513F5141B8008007D31E7 /* rnl_nx.pfm in Resources */ = {isa = PBXBuildFile; fileRef = 9F7513EE141B8008007D31E7 /* rnl_nx.pfm */; };
+		9F7513F6141B8008007D31E7 /* rnl_ny.pfm in Resources */ = {isa = PBXBuildFile; fileRef = 9F7513EF141B8008007D31E7 /* rnl_ny.pfm */; };
+		9F7513F7141B8008007D31E7 /* rnl_nz.pfm in Resources */ = {isa = PBXBuildFile; fileRef = 9F7513F0141B8008007D31E7 /* rnl_nz.pfm */; };
+		9F7513F8141B8008007D31E7 /* rnl_px.pfm in Resources */ = {isa = PBXBuildFile; fileRef = 9F7513F1141B8008007D31E7 /* rnl_px.pfm */; };
+		9F7513F9141B8008007D31E7 /* rnl_py.pfm in Resources */ = {isa = PBXBuildFile; fileRef = 9F7513F2141B8008007D31E7 /* rnl_py.pfm */; };
+		9F7513FA141B8008007D31E7 /* rnl_pz.pfm in Resources */ = {isa = PBXBuildFile; fileRef = 9F7513F3141B8008007D31E7 /* rnl_pz.pfm */; };
+		9F7513FD141B8455007D31E7 /* opengltools.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F7513FB141B8455007D31E7 /* opengltools.mm */; };
+		9F9E737113F6A14C00E6FFD1 /* framebufferobject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E736E13F6A14C00E6FFD1 /* framebufferobject.mm */; };
+		9F9E737213F6A14C00E6FFD1 /* vertexbufferobject.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E736F13F6A14C00E6FFD1 /* vertexbufferobject.cc */; };
+		9F9E737613F6A15700E6FFD1 /* FBOShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 9F9E737413F6A15700E6FFD1 /* FBOShader.fsh */; };
+		9F9E737713F6A15700E6FFD1 /* FBOShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 9F9E737513F6A15700E6FFD1 /* FBOShader.vsh */; };
+		9FB1E4C213F7FE31006C7D1E /* hdrcubemap.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1E4C013F7FE31006C7D1E /* hdrcubemap.mm */; };
+		9FFA960E14515BFF008975BF /* lineartonemap.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 9FFA960B14515BCF008975BF /* lineartonemap.fsh */; };
+		9FFE080613EFE4E4002A5AFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFE080513EFE4E4002A5AFB /* UIKit.framework */; };
+		9FFE080813EFE4E4002A5AFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFE080713EFE4E4002A5AFB /* Foundation.framework */; };
+		9FFE080A13EFE4E4002A5AFB /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFE080913EFE4E4002A5AFB /* GLKit.framework */; };
+		9FFE080C13EFE4E4002A5AFB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FFE080B13EFE4E4002A5AFB /* OpenGLES.framework */; };
+		9FFE081213EFE4E4002A5AFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE081013EFE4E4002A5AFB /* InfoPlist.strings */; };
+		9FFE081413EFE4E4002A5AFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE081313EFE4E4002A5AFB /* main.m */; };
+		9FFE081813EFE4E4002A5AFB /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE081713EFE4E4002A5AFB /* AppDelegate.mm */; };
+		9FFE081A13EFE4E4002A5AFB /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE081913EFE4E4002A5AFB /* Shader.fsh */; };
+		9FFE081C13EFE4E4002A5AFB /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE081B13EFE4E4002A5AFB /* Shader.vsh */; };
+		9FFE081F13EFE4E4002A5AFB /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE081E13EFE4E4002A5AFB /* ViewController.mm */; };
+		9FFE082213EFE4E4002A5AFB /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE082013EFE4E4002A5AFB /* ViewController_iPhone.xib */; };
+		9FFE082513EFE4E4002A5AFB /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FFE082313EFE4E4002A5AFB /* ViewController_iPad.xib */; };
+		9FFE083113EFE67E002A5AFB /* glprogram.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE082D13EFE67E002A5AFB /* glprogram.mm */; };
+		9FFE083213EFE67E002A5AFB /* glshader.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9FFE082F13EFE67E002A5AFB /* glshader.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F1272A9141B4B4B006341D1 /* histogramviz.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = histogramviz.cc; sourceTree = "<group>"; };
+		9F1272AA141B4B4B006341D1 /* histogramviz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = histogramviz.h; sourceTree = "<group>"; };
+		9F1272AD141B4EB3006341D1 /* histogram.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = histogram.fsh; sourceTree = "<group>"; };
+		9F1272AE141B4EB3006341D1 /* histogram.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = histogram.vsh; sourceTree = "<group>"; };
+		9F7513DA141B7EA8007D31E7 /* hdrcubemap.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = hdrcubemap.fsh; sourceTree = "<group>"; };
+		9F7513DB141B7EA8007D31E7 /* hdrcubemap.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = hdrcubemap.vsh; sourceTree = "<group>"; };
+		9F7513EE141B8008007D31E7 /* rnl_nx.pfm */ = {isa = PBXFileReference; lastKnownFileType = file; path = rnl_nx.pfm; sourceTree = "<group>"; };
+		9F7513EF141B8008007D31E7 /* rnl_ny.pfm */ = {isa = PBXFileReference; lastKnownFileType = file; path = rnl_ny.pfm; sourceTree = "<group>"; };
+		9F7513F0141B8008007D31E7 /* rnl_nz.pfm */ = {isa = PBXFileReference; lastKnownFileType = file; path = rnl_nz.pfm; sourceTree = "<group>"; };
+		9F7513F1141B8008007D31E7 /* rnl_px.pfm */ = {isa = PBXFileReference; lastKnownFileType = file; path = rnl_px.pfm; sourceTree = "<group>"; };
+		9F7513F2141B8008007D31E7 /* rnl_py.pfm */ = {isa = PBXFileReference; lastKnownFileType = file; path = rnl_py.pfm; sourceTree = "<group>"; };
+		9F7513F3141B8008007D31E7 /* rnl_pz.pfm */ = {isa = PBXFileReference; lastKnownFileType = file; path = rnl_pz.pfm; sourceTree = "<group>"; };
+		9F7513FB141B8455007D31E7 /* opengltools.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = opengltools.mm; sourceTree = "<group>"; };
+		9F7513FC141B8455007D31E7 /* opengltools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opengltools.h; sourceTree = "<group>"; };
+		9F9E736D13F6A14C00E6FFD1 /* framebufferobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = framebufferobject.h; sourceTree = "<group>"; };
+		9F9E736E13F6A14C00E6FFD1 /* framebufferobject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = framebufferobject.mm; sourceTree = "<group>"; };
+		9F9E736F13F6A14C00E6FFD1 /* vertexbufferobject.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vertexbufferobject.cc; sourceTree = "<group>"; };
+		9F9E737013F6A14C00E6FFD1 /* vertexbufferobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexbufferobject.h; sourceTree = "<group>"; };
+		9F9E737413F6A15700E6FFD1 /* FBOShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = FBOShader.fsh; path = Shaders/FBOShader.fsh; sourceTree = "<group>"; };
+		9F9E737513F6A15700E6FFD1 /* FBOShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = FBOShader.vsh; path = Shaders/FBOShader.vsh; sourceTree = "<group>"; };
+		9FB1E4C013F7FE31006C7D1E /* hdrcubemap.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = hdrcubemap.mm; sourceTree = "<group>"; };
+		9FB1E4C113F7FE31006C7D1E /* hdrcubemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hdrcubemap.h; sourceTree = "<group>"; };
+		9FFA960B14515BCF008975BF /* lineartonemap.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = lineartonemap.fsh; path = Shaders/lineartonemap.fsh; sourceTree = "<group>"; };
+		9FFE080113EFE4E4002A5AFB /* hdrdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hdrdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FFE080513EFE4E4002A5AFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9FFE080713EFE4E4002A5AFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9FFE080913EFE4E4002A5AFB /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		9FFE080B13EFE4E4002A5AFB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9FFE080F13EFE4E4002A5AFB /* hdrdemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hdrdemo-Info.plist"; sourceTree = "<group>"; };
+		9FFE081113EFE4E4002A5AFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9FFE081313EFE4E4002A5AFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9FFE081513EFE4E4002A5AFB /* hdrdemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hdrdemo-Prefix.pch"; sourceTree = "<group>"; };
+		9FFE081613EFE4E4002A5AFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9FFE081713EFE4E4002A5AFB /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		9FFE081913EFE4E4002A5AFB /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		9FFE081B13EFE4E4002A5AFB /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		9FFE081D13EFE4E4002A5AFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9FFE081E13EFE4E4002A5AFB /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		9FFE082113EFE4E4002A5AFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		9FFE082413EFE4E4002A5AFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		9FFE082C13EFE67E002A5AFB /* codingguides.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codingguides.h; sourceTree = "<group>"; };
+		9FFE082D13EFE67E002A5AFB /* glprogram.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = glprogram.mm; sourceTree = "<group>"; };
+		9FFE082E13EFE67E002A5AFB /* glprogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glprogram.h; sourceTree = "<group>"; };
+		9FFE082F13EFE67E002A5AFB /* glshader.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glshader.cc; sourceTree = "<group>"; };
+		9FFE083013EFE67E002A5AFB /* glshader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glshader.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FFE07FE13EFE4E4002A5AFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFE080613EFE4E4002A5AFB /* UIKit.framework in Frameworks */,
+				9FFE080813EFE4E4002A5AFB /* Foundation.framework in Frameworks */,
+				9FFE080A13EFE4E4002A5AFB /* GLKit.framework in Frameworks */,
+				9FFE080C13EFE4E4002A5AFB /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F7513EC141B8008007D31E7 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				9F7513EE141B8008007D31E7 /* rnl_nx.pfm */,
+				9F7513EF141B8008007D31E7 /* rnl_ny.pfm */,
+				9F7513F0141B8008007D31E7 /* rnl_nz.pfm */,
+				9F7513F1141B8008007D31E7 /* rnl_px.pfm */,
+				9F7513F2141B8008007D31E7 /* rnl_py.pfm */,
+				9F7513F3141B8008007D31E7 /* rnl_pz.pfm */,
+			);
+			name = data;
+			path = ../data;
+			sourceTree = "<group>";
+		};
+		9FB1E4BF13F7FE31006C7D1E /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9F7513DA141B7EA8007D31E7 /* hdrcubemap.fsh */,
+				9F7513DB141B7EA8007D31E7 /* hdrcubemap.vsh */,
+				9F1272AD141B4EB3006341D1 /* histogram.fsh */,
+				9F1272AE141B4EB3006341D1 /* histogram.vsh */,
+				9F1272A9141B4B4B006341D1 /* histogramviz.cc */,
+				9F1272AA141B4B4B006341D1 /* histogramviz.h */,
+				9FB1E4C013F7FE31006C7D1E /* hdrcubemap.mm */,
+				9FB1E4C113F7FE31006C7D1E /* hdrcubemap.h */,
+			);
+			name = scenes;
+			path = ../scenes;
+			sourceTree = "<group>";
+		};
+		9FFE07F613EFE4E4002A5AFB = {
+			isa = PBXGroup;
+			children = (
+				9F7513EC141B8008007D31E7 /* data */,
+				9FB1E4BF13F7FE31006C7D1E /* scenes */,
+				9FFE082B13EFE67E002A5AFB /* shared */,
+				9FFE080D13EFE4E4002A5AFB /* hdrdemo */,
+				9FFE080413EFE4E4002A5AFB /* Frameworks */,
+				9FFE080213EFE4E4002A5AFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FFE080213EFE4E4002A5AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FFE080113EFE4E4002A5AFB /* hdrdemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FFE080413EFE4E4002A5AFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FFE080513EFE4E4002A5AFB /* UIKit.framework */,
+				9FFE080713EFE4E4002A5AFB /* Foundation.framework */,
+				9FFE080913EFE4E4002A5AFB /* GLKit.framework */,
+				9FFE080B13EFE4E4002A5AFB /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FFE080D13EFE4E4002A5AFB /* hdrdemo */ = {
+			isa = PBXGroup;
+			children = (
+				9F9E737413F6A15700E6FFD1 /* FBOShader.fsh */,
+				9F9E737513F6A15700E6FFD1 /* FBOShader.vsh */,
+				9FFE081613EFE4E4002A5AFB /* AppDelegate.h */,
+				9FFE081713EFE4E4002A5AFB /* AppDelegate.mm */,
+				9FFE081913EFE4E4002A5AFB /* Shader.fsh */,
+				9FFE081B13EFE4E4002A5AFB /* Shader.vsh */,
+				9FFE081D13EFE4E4002A5AFB /* ViewController.h */,
+				9FFE081E13EFE4E4002A5AFB /* ViewController.mm */,
+				9FFE082013EFE4E4002A5AFB /* ViewController_iPhone.xib */,
+				9FFE082313EFE4E4002A5AFB /* ViewController_iPad.xib */,
+				9FFE080E13EFE4E4002A5AFB /* Supporting Files */,
+			);
+			path = hdrdemo;
+			sourceTree = "<group>";
+		};
+		9FFE080E13EFE4E4002A5AFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FFA960B14515BCF008975BF /* lineartonemap.fsh */,
+				9FFE080F13EFE4E4002A5AFB /* hdrdemo-Info.plist */,
+				9FFE081013EFE4E4002A5AFB /* InfoPlist.strings */,
+				9FFE081313EFE4E4002A5AFB /* main.m */,
+				9FFE081513EFE4E4002A5AFB /* hdrdemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FFE082B13EFE67E002A5AFB /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				9F7513FB141B8455007D31E7 /* opengltools.mm */,
+				9F7513FC141B8455007D31E7 /* opengltools.h */,
+				9F9E736D13F6A14C00E6FFD1 /* framebufferobject.h */,
+				9F9E736E13F6A14C00E6FFD1 /* framebufferobject.mm */,
+				9F9E736F13F6A14C00E6FFD1 /* vertexbufferobject.cc */,
+				9F9E737013F6A14C00E6FFD1 /* vertexbufferobject.h */,
+				9FFE082C13EFE67E002A5AFB /* codingguides.h */,
+				9FFE082D13EFE67E002A5AFB /* glprogram.mm */,
+				9FFE082E13EFE67E002A5AFB /* glprogram.h */,
+				9FFE082F13EFE67E002A5AFB /* glshader.cc */,
+				9FFE083013EFE67E002A5AFB /* glshader.h */,
+			);
+			name = shared;
+			path = ../shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FFE080013EFE4E4002A5AFB /* hdrdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FFE082813EFE4E4002A5AFB /* Build configuration list for PBXNativeTarget "hdrdemo" */;
+			buildPhases = (
+				9FFE07FD13EFE4E4002A5AFB /* Sources */,
+				9FFE07FE13EFE4E4002A5AFB /* Frameworks */,
+				9FFE07FF13EFE4E4002A5AFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hdrdemo;
+			productName = hdrdemo;
+			productReference = 9FFE080113EFE4E4002A5AFB /* hdrdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FFE07F813EFE4E4002A5AFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9FFE07FB13EFE4E4002A5AFB /* Build configuration list for PBXProject "hdrdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FFE07F613EFE4E4002A5AFB;
+			productRefGroup = 9FFE080213EFE4E4002A5AFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FFE080013EFE4E4002A5AFB /* hdrdemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FFE07FF13EFE4E4002A5AFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFE081213EFE4E4002A5AFB /* InfoPlist.strings in Resources */,
+				9FFE081A13EFE4E4002A5AFB /* Shader.fsh in Resources */,
+				9FFE081C13EFE4E4002A5AFB /* Shader.vsh in Resources */,
+				9FFE082213EFE4E4002A5AFB /* ViewController_iPhone.xib in Resources */,
+				9FFE082513EFE4E4002A5AFB /* ViewController_iPad.xib in Resources */,
+				9F9E737613F6A15700E6FFD1 /* FBOShader.fsh in Resources */,
+				9F9E737713F6A15700E6FFD1 /* FBOShader.vsh in Resources */,
+				9F1272B1141B52B4006341D1 /* histogram.vsh in Resources */,
+				9F1272B2141B52B8006341D1 /* histogram.fsh in Resources */,
+				9F7513DE141B7EB4007D31E7 /* hdrcubemap.fsh in Resources */,
+				9F7513DF141B7EB8007D31E7 /* hdrcubemap.vsh in Resources */,
+				9FFA960E14515BFF008975BF /* lineartonemap.fsh in Resources */,
+				9F7513F5141B8008007D31E7 /* rnl_nx.pfm in Resources */,
+				9F7513F6141B8008007D31E7 /* rnl_ny.pfm in Resources */,
+				9F7513F7141B8008007D31E7 /* rnl_nz.pfm in Resources */,
+				9F7513F8141B8008007D31E7 /* rnl_px.pfm in Resources */,
+				9F7513F9141B8008007D31E7 /* rnl_py.pfm in Resources */,
+				9F7513FA141B8008007D31E7 /* rnl_pz.pfm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FFE07FD13EFE4E4002A5AFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFE081413EFE4E4002A5AFB /* main.m in Sources */,
+				9FFE081813EFE4E4002A5AFB /* AppDelegate.mm in Sources */,
+				9FFE081F13EFE4E4002A5AFB /* ViewController.mm in Sources */,
+				9FFE083113EFE67E002A5AFB /* glprogram.mm in Sources */,
+				9FFE083213EFE67E002A5AFB /* glshader.cc in Sources */,
+				9F9E737113F6A14C00E6FFD1 /* framebufferobject.mm in Sources */,
+				9F9E737213F6A14C00E6FFD1 /* vertexbufferobject.cc in Sources */,
+				9FB1E4C213F7FE31006C7D1E /* hdrcubemap.mm in Sources */,
+				9F1272AB141B4B4B006341D1 /* histogramviz.cc in Sources */,
+				9F7513FD141B8455007D31E7 /* opengltools.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FFE081013EFE4E4002A5AFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFE081113EFE4E4002A5AFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9FFE082013EFE4E4002A5AFB /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFE082113EFE4E4002A5AFB /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9FFE082313EFE4E4002A5AFB /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFE082413EFE4E4002A5AFB /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FFE082613EFE4E4002A5AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FFE082713EFE4E4002A5AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FFE082913EFE4E4002A5AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hdrdemo/hdrdemo-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = ../;
+				INFOPLIST_FILE = "hdrdemo/hdrdemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9FFE082A13EFE4E4002A5AFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hdrdemo/hdrdemo-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = ../;
+				INFOPLIST_FILE = "hdrdemo/hdrdemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FFE07FB13EFE4E4002A5AFB /* Build configuration list for PBXProject "hdrdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFE082613EFE4E4002A5AFB /* Debug */,
+				9FFE082713EFE4E4002A5AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FFE082813EFE4E4002A5AFB /* Build configuration list for PBXNativeTarget "hdrdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FFE082913EFE4E4002A5AFB /* Debug */,
+				9FFE082A13EFE4E4002A5AFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FFE07F813EFE4E4002A5AFB /* Project object */;
+}
